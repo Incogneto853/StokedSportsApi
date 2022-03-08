@@ -1,0 +1,4 @@
+﻿--add migration to UserContext
+add-migration initialIdentityMigration -Context ApiDbContext -OutputDir "StokedServices/StokedIdentityService/Migrations"
+--add migration to Spot
+add-migration initialSpotMigration -Context SpotDBContext -OutputDir "StokedServices/StokedSpotService/Migrations"
